@@ -3,6 +3,7 @@ package com.dyf.exmple4;
 public class House implements Runnable{
 	
 	private int water;
+	//真实对象拥有它的代理对象，弱耦合得使得代理对象对它操作
 	Thread dog;
 	Thread cat;
 		
